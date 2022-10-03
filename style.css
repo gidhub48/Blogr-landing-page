@@ -1,0 +1,68 @@
+/* || GENERAL STYLES */
+
+body{
+    position: relative;
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0; margin: 0;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+button{
+    font-size: 1rem;
+    background: transparent;
+    border: 0;cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Overpass', monospace;
+    margin: 0;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.4rem;
+    margin: 0;
+}
+h1{
+    font-size: clamp(2.2rem ,4vw,3.65rem);
+}
+h2{
+    font-size: clamp(1.6rem,4vw,2.3rem);
+}
+h3{
+    font-size: clamp(1.7rem,3vw,1.75rem);
+}
+
+.fs400{
+    font-weight: 400;
+}
+.fs500{
+    font-weight: 500;
+}
+.fs700{
+    font-weight: 700;
+}
+.fs300{
+    font-weight: 300;
+}
+.fs600{
+    font-weight: 600;
+}
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+.overpass{
+    font-family: 'Overpass', sans-serif;
+}
+.overflow-hide{
+    overflow: hidden;
+}
